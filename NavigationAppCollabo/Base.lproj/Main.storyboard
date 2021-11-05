@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-980" y="126"/>
         </scene>
-        <!--View Controller-->
+        <!--Min View Controller-->
         <scene sceneID="P2J-kB-ws0">
             <objects>
-                <viewController id="Ohp-E2-O1T" sceneMemberID="viewController">
+                <viewController id="Ohp-E2-O1T" customClass="MinViewController" customModule="NavigationAppCollabo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ClP-f5-YkV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,6 +75,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fF3-6x-jVy">
+                                <rect key="frame" x="183" y="138" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="changeImage:" destination="Ohp-E2-O1T" eventType="valueChanged" id="G2s-V3-qA2"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eZD-db-QIt"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -84,6 +91,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="96b-qL-RGu"/>
+                    <connections>
+                        <outlet property="imageSwitch" destination="fF3-6x-jVy" id="G5d-tH-F5m"/>
+                        <outlet property="imageView" destination="nXr-hG-Bou" id="1lv-RV-i9J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZS-Ef-3TS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

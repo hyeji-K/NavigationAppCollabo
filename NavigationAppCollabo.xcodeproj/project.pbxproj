@@ -14,6 +14,8 @@
 		08E6B5F927350690003CF7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E6B5F827350690003CF7C0 /* Assets.xcassets */; };
 		08E6B5FC27350690003CF7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E6B5FA27350690003CF7C0 /* LaunchScreen.storyboard */; };
 		39D3BEFC2735091A00132C57 /* sesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D3BEFB2735091A00132C57 /* sesi.png */; };
+		39D3BEFE27350C8D00132C57 /* MinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3BEFD27350C8C00132C57 /* MinViewController.swift */; };
+		39D3BF0027350D0500132C57 /* seol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39D3BEFF27350D0500132C57 /* seol.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		08E6B5FB27350690003CF7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08E6B5FD27350690003CF7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39D3BEFB2735091A00132C57 /* sesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sesi.png; sourceTree = "<group>"; };
+		39D3BEFD27350C8C00132C57 /* MinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinViewController.swift; sourceTree = "<group>"; };
+		39D3BEFF27350D0500132C57 /* seol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seol.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		08E6B5EE2735068E003CF7C0 /* NavigationAppCollabo */ = {
 			isa = PBXGroup;
 			children = (
+				39D3BEFF27350D0500132C57 /* seol.jpeg */,
 				39D3BEFB2735091A00132C57 /* sesi.png */,
 				08E6B5EF2735068E003CF7C0 /* AppDelegate.swift */,
 				08E6B5F12735068E003CF7C0 /* SceneDelegate.swift */,
@@ -66,6 +71,7 @@
 				08E6B5F827350690003CF7C0 /* Assets.xcassets */,
 				08E6B5FA27350690003CF7C0 /* LaunchScreen.storyboard */,
 				08E6B5FD27350690003CF7C0 /* Info.plist */,
+				39D3BEFD27350C8C00132C57 /* MinViewController.swift */,
 			);
 			path = NavigationAppCollabo;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 				08E6B5FC27350690003CF7C0 /* LaunchScreen.storyboard in Resources */,
 				08E6B5F927350690003CF7C0 /* Assets.xcassets in Resources */,
 				08E6B5F72735068E003CF7C0 /* Main.storyboard in Resources */,
+				39D3BF0027350D0500132C57 /* seol.jpeg in Resources */,
 				39D3BEFC2735091A00132C57 /* sesi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E6B5F42735068E003CF7C0 /* ViewController.swift in Sources */,
+				39D3BEFE27350C8D00132C57 /* MinViewController.swift in Sources */,
 				08E6B5F02735068E003CF7C0 /* AppDelegate.swift in Sources */,
 				08E6B5F22735068E003CF7C0 /* SceneDelegate.swift in Sources */,
 			);
