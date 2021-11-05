@@ -92,6 +92,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="96b-qL-RGu"/>
                     <connections>
+                        <outlet property="btnCallNext" destination="8Cm-pS-gfr" id="6IN-JZ-uNm"/>
                         <outlet property="imageSwitch" destination="fF3-6x-jVy" id="G5d-tH-F5m"/>
                         <outlet property="imageView" destination="nXr-hG-Bou" id="1lv-RV-i9J"/>
                     </connections>
@@ -141,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="53.623188405797109" y="702.45535714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Youngmi View Controller-->
         <scene sceneID="THy-KM-moB">
             <objects>
-                <viewController id="VzT-K7-xDu" sceneMemberID="viewController">
+                <viewController id="VzT-K7-xDu" customClass="youngmiViewController" customModule="NavigationAppCollabo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ngh-rQ-xxy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

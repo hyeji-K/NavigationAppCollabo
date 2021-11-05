@@ -7,10 +7,11 @@
 
 import UIKit
 
-class MinViewController: UIViewController {
+class MinViewController: UIViewController, UIAlertViewDelegate {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var imageSwitch: UISwitch!
+    @IBOutlet weak var btnCallNext: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +22,14 @@ class MinViewController: UIViewController {
     @IBAction func changeImage(_ sender: UISwitch) {
         if sender.isOn {
             imageView.image = UIImage(named: "seol.jpeg")
+            btnCallNext.setTitle("바꿨다!", for: .normal)
         } else {
             imageView.image = UIImage(named: "sesi.png")
         }
     }
+
+    
+    
     /*
     // MARK: - Navigation
 
