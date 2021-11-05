@@ -11,6 +11,8 @@ class MinViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var imageSwitch: UISwitch!
+    // add comment label
+    @IBOutlet weak var lblcute: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
