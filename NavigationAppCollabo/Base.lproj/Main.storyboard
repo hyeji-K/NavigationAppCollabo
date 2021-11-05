@@ -164,7 +164,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2021-11-05 오후 3.46.39" translatesAutoresizingMaskIntoConstraints="NO" id="p6G-1L-8i6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="p6G-1L-8i6">
                                 <rect key="frame" x="87" y="301" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -175,7 +175,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2021-11-05 오후 3.47.16" translatesAutoresizingMaskIntoConstraints="NO" id="gHL-0D-tMz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a1" translatesAutoresizingMaskIntoConstraints="NO" id="gHL-0D-tMz">
                                 <rect key="frame" x="87" y="431" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -191,10 +191,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="스크린샷 2021-11-05 오후 3.46.39" width="1756" height="1300"/>
-        <image name="스크린샷 2021-11-05 오후 3.47.16" width="722" height="946"/>
-        <image name="tiredcat" width="699" height="461"/>
+        <image name="a" width="1756" height="1300"/>
+        <image name="a1" width="722" height="946"/>
         <image name="sesi.png" width="2892" height="2107"/>
+        <image name="tiredcat" width="699" height="461"/>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
