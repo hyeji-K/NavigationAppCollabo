@@ -18,11 +18,16 @@ class MinViewController: UIViewController, UIAlertViewDelegate {
     @IBOutlet weak var lblcute: UILabel!
 
     
+    @IBOutlet weak var textLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imageSwitch.isOn = false
+        textLabel.text = "우리 집에 사는 고양이 설이와 시루입니다"
     }
-    
+
 
     @IBAction func changeImage(_ sender: UISwitch) {
         if sender.isOn {
