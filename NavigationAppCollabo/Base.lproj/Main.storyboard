@@ -94,6 +94,7 @@
                     <connections>
                         <outlet property="imageSwitch" destination="fF3-6x-jVy" id="G5d-tH-F5m"/>
                         <outlet property="imageView" destination="nXr-hG-Bou" id="1lv-RV-i9J"/>
+                        <outlet property="textLabel" destination="8ar-yn-aGI" id="1IE-Vh-pl5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZS-Ef-3TS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
