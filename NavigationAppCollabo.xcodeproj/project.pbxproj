@@ -16,6 +16,7 @@
 		39D3BEFC2735091A00132C57 /* sesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D3BEFB2735091A00132C57 /* sesi.png */; };
 		39D3BEFE27350C8D00132C57 /* MinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3BEFD27350C8C00132C57 /* MinViewController.swift */; };
 		39D3BF0027350D0500132C57 /* seol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39D3BEFF27350D0500132C57 /* seol.jpeg */; };
+		39D3BF022735146600132C57 /* youngmiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3BF012735146600132C57 /* youngmiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		39D3BEFB2735091A00132C57 /* sesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sesi.png; sourceTree = "<group>"; };
 		39D3BEFD27350C8C00132C57 /* MinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinViewController.swift; sourceTree = "<group>"; };
 		39D3BEFF27350D0500132C57 /* seol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seol.jpeg; sourceTree = "<group>"; };
+		39D3BF012735146600132C57 /* youngmiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youngmiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				08E6B5FA27350690003CF7C0 /* LaunchScreen.storyboard */,
 				08E6B5FD27350690003CF7C0 /* Info.plist */,
 				39D3BEFD27350C8C00132C57 /* MinViewController.swift */,
+				39D3BF012735146600132C57 /* youngmiViewController.swift */,
 			);
 			path = NavigationAppCollabo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				08E6B5F42735068E003CF7C0 /* ViewController.swift in Sources */,
 				39D3BEFE27350C8D00132C57 /* MinViewController.swift in Sources */,
 				08E6B5F02735068E003CF7C0 /* AppDelegate.swift in Sources */,
+				39D3BF022735146600132C57 /* youngmiViewController.swift in Sources */,
 				08E6B5F22735068E003CF7C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
