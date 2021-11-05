@@ -32,23 +32,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Cm-pS-gfr">
-                                <rect key="frame" x="147" y="607" width="121" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="영미님을 불러봅시다"/>
-                                <connections>
-                                    <segue destination="VzT-K7-xDu" kind="show" id="BKl-bi-r1y"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="wgJ-R1-mWT">
+                                <rect key="frame" x="59" y="190" width="296" height="558"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="저는 민경입니다!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3p-tN-iot">
+                                        <rect key="frame" x="63" y="0.0" width="170.5" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesi.png" translatesAutoresizingMaskIntoConstraints="NO" id="nXr-hG-Bou">
+                                        <rect key="frame" x="0.0" y="75.5" width="296" height="215"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="215" id="FHa-s4-lXv"/>
+                                            <constraint firstAttribute="width" constant="296" id="JnH-UH-GWp"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="저희 집에는 설이와 시루가 삽니다" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-yn-aGI">
+                                        <rect key="frame" x="36.5" y="334.5" width="223.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="귀엽쬬?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvx-kR-ruT">
+                                        <rect key="frame" x="122" y="399" width="52.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="그럼 이제 다음 사람을 불러볼까요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tn-fy-pHm">
+                                        <rect key="frame" x="32" y="463.5" width="232" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Cm-pS-gfr">
+                                        <rect key="frame" x="87.5" y="528" width="121" height="30"/>
+                                        <state key="normal" title="영미님을 불러봅시다"/>
+                                        <connections>
+                                            <segue destination="VzT-K7-xDu" kind="show" id="BKl-bi-r1y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eZD-db-QIt"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="wgJ-R1-mWT" firstAttribute="top" secondItem="eZD-db-QIt" secondAttribute="top" constant="102" id="a34-Ay-TTX"/>
+                            <constraint firstItem="wgJ-R1-mWT" firstAttribute="centerX" secondItem="ClP-f5-YkV" secondAttribute="centerX" id="itI-FM-HO5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="96b-qL-RGu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZS-Ef-3TS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-186" y="-90"/>
+            <point key="canvasLocation" x="-186.95652173913044" y="-90.401785714285708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yZI-eS-gMx">
@@ -101,6 +140,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="sesi.png" width="2892" height="2107"/>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
